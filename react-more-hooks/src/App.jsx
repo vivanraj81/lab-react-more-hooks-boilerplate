@@ -1,13 +1,15 @@
 import { useState } from 'react'
 import './App.css'
-import Apple from './components/UseState.jsx'
+import Use from './components/UseState'
+import UseReducer from './components/UseReduce'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <Apple/>
+    {/* <Use/> */}
+    <UseReducer/>
+
     </>
   )
 }
